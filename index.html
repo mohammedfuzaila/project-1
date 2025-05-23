@@ -4,54 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registration form PROJECT 1 </title>
-    
-   </head>
-<body>
-  <div class="d1">
-    <h2 id="r1">Registration</h2>
-   <br>
-   <br>
-    <form action="#">
-      <div class="div">
-        <input id="input2" type="text" placeholder="Enter Your Name" required>
-      </div>
-      <br>
-      <br>
-      
-      <div class="div">
-        <input id="input2" type="text" placeholder="Enter Your Email" required>
-      </div>
-      <br>
-      <br>
-      
-      <div class="div">
-        <input id="input2" type="password" placeholder="Create Password" required>
-      </div>
-      <br>
-      <br>
-      
-      <div class="div">
-        <input id="input2" type="password" placeholder="Confirm Password" required>
-      </div>
-      <br>
-      <br>
-      
-      <div class="div">
-       <input id="I2" type="checkbox"><span>I accept all the terms & conditions</span>
-      </div>
-      <br>
-      
-      <div class="input1">
-        <input class="I1" type="Submit" value="Register Now">
-      </div>
-      
-      <div class="t1">
-        <h4>Already have an account? <a href="#">Login now</a></h4>
-      </div>
-    </form>
-  </div>
-</body>
-<style>
+    <style>
 *{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -97,7 +50,7 @@ h2{
     width:275PX;   
     
 } 
-#input2{
+.input2{
     border-color: #00000050;
     border-radius:4PX;
     height:35px;
@@ -112,7 +65,6 @@ h2{
     border:2PX solid #00000000;
     border-radius:4PX; 
     height:35PX;
-    text-decoration: width 200px;
     font-size: 12px;
     
 }
@@ -129,5 +81,55 @@ span{
 
 }
 
+
 </style>
+   </head>
+<body>
+  <div class="d1">
+    <h2>Registration</h2>
+    
+   <br>
+   <br>
+    <form action="#">
+      <div class="div">
+        <input id="username" class="input2" type="text" placeholder="Enter Your Name" >
+      </div>
+      <br>
+      <br>
+      
+      <div class="div">
+        <input id="email"  class="input2" type="text" placeholder="Enter Your Email" >
+      </div>
+      <br>
+      <br>
+      
+      <div class="div">
+        <input id="password"  class="input2" type="password" placeholder="Create Password" >
+      </div>
+      <br>
+      <br>
+      
+      <div class="div">
+        <input id="confirmpassword" class="input2" type="password" placeholder="Confirm Password" >
+      </div>
+      <br>
+      <br>
+      
+      <div class="div">
+       <input id="term" class="I2" type="checkbox"><span>I accept all the terms & conditions</span>
+      </div>
+      <br>
+      
+      <div class="input1">
+        <input class="I1" type="Submit" value="Register Now">
+      </div>
+      
+      <div class="t1">
+        <h4>Already have an account? <a href="#">Login now</a></h4>
+      </div>
+    </form>
+  </div>
+ 
+</body>
+
 </html>
